@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo yum update -y
-sudo yum apache2 -y
+sudo yum httpd -y
 cd/var/www/html/index.html
