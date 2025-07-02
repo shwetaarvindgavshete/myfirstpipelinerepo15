@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo su update -y
-sudo su install apache2 -y
+sudo yum update -y
+sudo yum apache2 -y
 cd/var/www/html/index.html
